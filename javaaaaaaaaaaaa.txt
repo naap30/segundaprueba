@@ -1,0 +1,180 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ejercicios;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author User
+ */
+public class Ejercicios {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+           /*               
+         int a=26, b=5, r; 
+         String Nombre = "Nayarha ";
+         String SNombre ="Altagracia ";
+         String Apellido = "Almonte ";
+         String SApellido = "Perdomo ";
+        
+         System.out.println("El resultado es:" +(r = a+b));
+       
+         System.out.println("El resultado es:" +(r= a-b));
+        
+         System.out.println("El resultado es:" +(r= a*b));
+        
+         System.out.println("El resultado es:" +(r= a/b));
+         
+         System.out.println("Papi Ekle mi Religion");
+       
+         System.out.println (Nombre + SNombre +  Apellido + SApellido); 
+         
+             
+                  
+        double o = 45.1, w= 4 , y;
+         System.out.println("El resultado es:" +(y = o/w));
+        
+         float p = 20 , l = 10 , h;
+         System.out.println("El resultado es:" +(h = p/l ));    
+         
+          Scanner in = new Scanner (System.in);
+     System.out.println (" Escribe tu frase:  ") ;
+    String frase  =  in.nextLine();
+    System.out.println ("Tu frase es : " + frase );
+    */
+        
+    
+  //Scanner in = new Scanner (System.in);
+  //System.out.println (" Escribe tu usuario:  ") ;
+ //String usuario = in.nextLine();
+// System.out.println (" Escribe tu contraseña:  ") ;
+  // String clave = in.nextLine();
+   
+//if (  "Nayarha". equals(usuario) &&  "hola". equals(clave) ){
+      
+     // System.out.println("Welcome");
+ // }
+  
+//else if ("Nayarha". equals(usuario) && "hola". equals(clave)){
+//System.out.println("Welcome");
+//}
+//else if ("Nayarha". equals(clave) && "hola". equals(usuario)){
+   // System.out.println("Buenas noches");
+
+//}
+
+
+
+   // else {
+       // System.out.println ("Incorrecta") ; 
+  // }
+   
+   //String nombre = "fernando";
+   //System.out.println("Bienvenido " + nombre );
+   
+  // Scanner in = new Scanner (System.in);
+ // System.out.println(" Adivina la puerta:  ") ;
+//  String Puerta = in.nextLine();
+  
+ // if ("Puerta1". equals(Puerta)) {
+    //System.out.println("Puerta del terror");
+//}
+   //else if ("Puerta2". equals(Puerta)) {
+    //System.out.println("Puerta box");
+       //   }
+  //else if ("Puerta3". equals(Puerta)) {
+    //System.out.println("Chicken Nuggets");
+         // }
+   //else if ("Puerta4". equals(Puerta)) {
+   // System.out.println("Big Box");
+        //  }
+   //else if ("Puerta5". equals(Puerta)) {
+   // System.out.println("Dormir");
+       //   }
+  //else {
+      // System.out.println ("No existe") ; 
+  // }
+  
+  
+ // Scanner in=new Scanner(System.in);
+     //   System.out.println("juego de ventanas");
+       // System.out.println("elige una de las tres ventanas(1, 2 o 3)");
+        //int numero=in.nextInt();
+       // switch (numero) {
+            //case 1:
+             //   System.out.println("ventana número 1");
+             //   System.out.println("Dinero");
+               // break;
+          //  case 2:
+             //   System.out.println("ventana número 2");
+               // System.out.println("Dormir");
+                //break;
+           // case 3:
+            //    System.out.println("ventana número 3");
+             //   System.out.println("Suerte");
+              //  break;
+           //// default:
+              //  System.out.println("lo siento, solo puedes elegir entre las puertas 1, 2 o 3");
+              //  break;
+
+         //   }
+   
+       //Scanner in=new Scanner(System.in);
+           //     System.out.print("Ingresa un aleatorio: ");
+       // int año = in.nextInt();
+        //if (esBisiesto(año)) {
+          //  System.out.println(año + " es año bisiesto.");
+       // } else {
+         //   System.out.println(año + " no es año bisiesto.");
+       // }
+  //  }
+   // public static boolean esBisiesto(int año) {
+     //   return (año % 4 == 0 && año % 100 != 0) || (año % 400 == 0);
+
+
+//Scanner in=new Scanner(System.in);
+   // System.out.print("Ingrese un número: ");
+      //  double numero = in.nextDouble();
+
+        //if (numero > 0) {
+           // System.out.println("El número ingresado es positivo.");
+        //} else if (numero < 0) {
+            //System.out.println("El número ingresado es negativo.");
+      //  } else {
+            //System.out.println("El número ingresado es igual a cero.");
+       // }
+
+        
+   Scanner sc = new Scanner(System.in);
+        int n1, n2, n3;
+        System.out.print("Introduzca primer digito: ");
+        n1 = sc.nextInt();
+        System.out.print("Introduzca segundo digito: ");
+        n2 = sc.nextInt();
+        System.out.print("Introduzca tercer digito: ");
+        n3 = sc.nextInt();
+        if (n1 > n2) {
+            if (n1 > n3) {
+                System.out.println("El mayor es: " + n1);                                             
+            } else {
+                System.out.println("el mayor es: " + n3);     
+            }
+        } else if (n2 > n3) {
+            System.out.println("el mayor es: " + n2);
+        } else {
+            System.out.println("el mayor es: " + n3);
+
+    
+    
+    
+    }
+}
+ 
+}
